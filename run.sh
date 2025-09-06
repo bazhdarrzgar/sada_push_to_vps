@@ -12,7 +12,7 @@ git clone https://github.com/bazhdarrzgar/sada.git
 cd sada
 chmod +x docker-setup.sh quick-docker-setup.sh
 ./docker-setup.sh
-sudo docker-compose down
-sudo docker-compose stop
-sudo docker rmi -f $(sudo docker images -q)
-sudo docker rmi -f swyanswartz/sada-app:latest 829282/sada-app:latest sada2-app:latest mongo:7.0
+# sudo docker-compose down
+# sudo docker-compose stop
+# sudo docker rmi -f $(sudo docker images -q)
+# sudo docker rmi -f swyanswartz/sada-app:latest 829282/sada-app:latest sada2-app:latest mongo:7.0
